@@ -443,7 +443,7 @@ border: none;
    
     padding: 20px;
   }
-  .carousel-cell .flickity-button{
+   .flickity-button{
       display: none !important;
   }
 
