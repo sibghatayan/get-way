@@ -509,10 +509,11 @@ ul li {
     margin-right: 10px;
     border-radius: 5px;
     padding: 20px;
-  }
-   .flickity-button{
-      display: none !important;
-  }
+}
+
+.flickity-button {
+    display: none !important;
+}
 
 .carousel-cell .flickity-button {
     display: none !important;
@@ -597,7 +598,7 @@ ul li {
 
 .instagram-section {
     width: 100%;
-    height: 500px;
+    height: 425px;
 
 }
 
@@ -625,15 +626,76 @@ ul li {
     height: 100%;
 }
 
-   /* **************************instagram section is end *****************/
+/* **************************instagram section is end *****************/
 
-   /* *********************footer section css start ***************/
+/* *********************footer section css start ***************/
 
-   .footer-section{
-       background: #1B365D;
-   }
+.main-footer {
+    background: #1B365D;
+    width: 100%;
 
- 
+    height: 220px;
+}
+
+.footer-detail {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.footer-detail div {
+    flex: 1;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+}
+
+
+.footer-detail div ul li {
+    text-decoration: none;
+    color: white;
+    font-size: 1.125em;
+    line-height: 2em;
+}
+
+.card3 {
+    height: 50px;
+    color: #1b365d;
+    font-size: 1.1em;
+    border-radius: 10px;
+    background-color: #f0c737;
+    text-decoration: none;
+    padding: 0.6em 1em;
+    text-transform: uppercase;
+    margin: 20px;
+    border: none;
+    font-family: 'Bree Serif', serif;
+}
+
+.last-section h2 {
+    text-align: center;
+    font-size: 15px;
+    padding: 8px;
+}
+
+.font-icon {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.font-icon span {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.font-icon span i {
+    color: #fff;
+    font-size: 30px;
+}
 
 
 
